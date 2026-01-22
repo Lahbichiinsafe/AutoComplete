@@ -9,7 +9,6 @@ Développer un outil d'auto-complétion générique pour l'assistance
 
 ## Encadrement
 - Guy Camilleri (IRIT au sein de l'équipe SMAC)
-- Collaboration avec Leandro Antonelli (Lifia, Argentine)
 
 
 ## Structure du projet
