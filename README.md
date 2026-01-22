@@ -11,15 +11,9 @@ Développer un outil d'auto-complétion générique pour l'assistance
 - Guy Camilleri (IRIT au sein de l'équipe SMAC)
 - Collaboration avec Leandro Antonelli (Lifia, Argentine)
 
-## État d'avancement
-- [ ] État de l'art
-- [ ] Prototype v1
-- [ ] Tests et évaluation
-- [ ] Rapport final
 
 ## Structure du projet
 - `docs/` : documentation et état de l'art
 - `data/` : glossaires et scénarios exemples
 - `src/` : code source
 - `tests/` : tests unitaires
-- `notebooks/` : notebooks Jupyter pour expérimentations
