@@ -1,10 +1,6 @@
-"""
-Module d'extraction de glossaire SIMPLE
-"""
-
+#Module d'extraction de glossaire SIMPLE
 from collections import Counter
 import re
-
 
 class SimpleGlossaryExtractor:
     """ 

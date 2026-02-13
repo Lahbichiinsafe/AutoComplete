@@ -1,0 +1,788 @@
+Vocabulary
+Scenario 1: Apply agricultural lime to the soil
+Goal: Neutralize the soil acidity to have the proper pH to sow seeds.
+Context: Have soil with a high acidity.
+Actors: gardener, agricultural engineering.
+Resources: soil, agricultural lime, magnesium, solution.
+Episodes:
+The agricultural engineer interprets the results of the soil analysis.
+The agricultural engineer prepares a solution with agricultural lime and magnesium.
+The gardener applies the solution to the soil.
+The solution neutralizes the soil’s pH
+Scenario 2: Choose irrigation mechanism
+Goal: Select the proper irrigation mechanism for planting tomato seeds.
+Context: There is no irrigation mechanism for watering tomato plants.
+Resources: irrigation mechanism, environment properties, tomato plants.
+Actors: agricultural engineer.
+Episodes:
+The agricultural engineer analyzes the soil composition and water availability.
+The agricultural engineer chooses an irrigation mechanism based on soil analysis and water availability
+The agricultural engineer installs the irrigation mechanism.
+The agricultural engineer analyzes the tomato plants.
+The agricultural engineer analyzes the environmental properties.
+The agricultural engineer configures the water requirement based on the development of the tomato plants and environmental properties.
+The agricultural engineer sets the frequency of irrigation.
+Scenario 3: Sow tomatoes seed
+Goal: Choose the variety of the seeds, prepare the seedbeds with compost and sow them
+Context: A lot of varieties of tomato seeds (black tomato, cherry tomato, cocktail tomato, rome tomato, heirloom tomato, etc), compost (vermicompost, seaweed compost, compost), vermiculite, perlite, and a 5 liters of flowerpot.
+Resources: seeds from different kinds of tomato plant, watering can, compost of any kind (seaweed, vermi, etc…), a mineral little rocks like vermiculite or perlite, and 5 litres of flowerpot, soil and a bucket.
+Actor: gardener
+Episodes:
+The gardener chooses some tomatoes seeds depending on the season.
+The gardener take the bucket and clean it.
+The gardener put half of vermicompost (it can be of any kind) in the bucket.
+The gardener put half of soil and glimpse.
+The gardener put 5% of the bucket with vermiculite.
+The gardener put 10% of the bucket with perlite.
+The gardener glimpse the content of the bucket again.
+The gardener cleans the flowerpot.
+The gardener put the contents of the bucket into a pot up to 3 fingers below the edge of the pot.
+The gardener humidifies the flowerpot.
+The gardener put above the half the seeds in the flowerpot.
+The gardener cover with 1 finger of the content of the bucket the seeds.
+The gardener irrigate with the water can the flowerpot a little.
+The gardener put the flowerpot in a sunlight spot.
+Scenario 4: Transplant tomato plant
+Goal: Plant the tomato seedling on soil.
+Context: The tomato plant has grown for about a month after being sowed.
+Actors: Gardener
+Resources: soil, tomato plant, shovel, seedbed
+Episodes:
+The gardener digs the soil with a shovel
+The gardener waters the soil
+The gardener takes the tomato plant from the seedbed
+The gardener places the tomato plant into the hole
+The gardener covers up until half of the stem of the tomato plant with soil
+The gardener waters the planted tomato plant
+Scenario 5: Prune tomato plants
+Goal: Improve tomato plants’ health for better quality production
+Context: Have tomato plants with abnormalities about a month after transplanting
+Resources: tomato plant, pruning pliers
+Actors: gardener
+Episodes:
+The gardener identifies the tomato plants with an abnormal growth or diseases
+The gardener uses the pruning pliers to prune the infected or withered branches of the tomato plants
+Scenario 6: Hilling tomato plants
+Goal: Improve the development of the tomato plant’s root
+Context: Have a healthy tomato plant, just pruned and ungrafted
+Resources: soil, tomato plant
+Actors: gardener
+Episodes:
+The gardener covers part of the tomato plant’s stem with soil
+The gardener ensures the tomato plants were not damaged
+Scenario 7: Support with a stake (tutoring)
+Goal: Facilitate the general management of tomato plants, ensure its straightness, and prevent its tomatoes from touching the ground.
+Context: Between fifteen and twenty-two days have passed since the tomato plant’s transplant, which is now 60 cm tall and still unsupported.
+Resources: Stakes made of cane or bamboo, sisal yarn, tools.
+Actors: Gardener, gardener’s assistant.
+Episodes:
+The gardener chooses the supporting technique.
+The farmer prepares the yarn.
+The gardener sets marks within 2.5 and 3 meters from each other along the middle of each ridge.
+The gardener buries a stake on each mark with about 40 cm of depth, leaving 2.5 meters above the ground (to better support the plants).
+The gardener places a thicker stake on the sides of each ridge.
+The gardener ties up the tomato plants to the stakes with sisal yarn.
+The stake guides the tomato plant’s growth.
+The gardener checks regularly on the tomato plant, loosening the knots as the plant grows (to avoid tensing) and adding between 3 and 4 rows of yarn.
+Scenario 8: Fumigate
+Goal: Eliminate pests that affect tomato plants
+Context: Have infected tomato plants
+Resources: tomato plant, pesticide, pest, pest traps
+Actors: agricultural engineer, gardener
+Episodes:
+The agricultural engineer detects the tomato plants with abnormal growth
+The agricultural engineer analyzes which kind of pest affects the tomato plant
+The agricultural engineer prepares the appropriate pesticide
+The agricultural engineer installs pest traps in the garden
+The gardener fumigates the tomato plants with the pesticide
+Scenario 9: Prepare fertilizer solution
+Goal: Obtain a proper fertilizer according to the tomato plants’ needs
+Context: Tomato plants are planted in unfertilized soil
+Resources: soil corer, analysis result, fertilizer solution, tomato plant, sample of soil
+Actors: agricultural engineer
+Episodes:
+The agricultural engineer takes a sample of soil with a soil corer
+The agricultural engineer sends the sample for analysis
+The agricultural engineer waits for the results of the analysis
+The agricultural engineer selects the necessary components according to the soil analysis and ripeness of the tomato plant
+The agricultural engineer prepares the fertilizer solution
+The agricultural engineer has the fertilizer solution ready
+Scenario 10: Prepare fertilizer solution
+Goal: Obtain a proper fertilizer according to the tomato plants’ needs
+Context: Tomato plants are planted in unfertilized soil
+Resources: fruit peels, vegetable scraps, eggshells, ground bones, leaves, mate herb, tea bag, coffee bag, container, soil, fertilizer solution
+Actors: gardener
+Episodes:
+The gardener puts fruit peels in the container.
+The gardener puts vegetable scraps in the container.
+The gardener puts eggshells in the container.
+The gardener puts ground bones in the container.
+The gardener puts leaves in the container.
+The gardener puts mate herb in the container.
+The gardener puts tea bag in the container.
+The gardener puts a coffee bag in the container.
+The gardener puts a layer of soil in the container
+The gardener covers the container
+The gardener lets the container sit until the components are indistinguishable
+The gardener has the fertilizer solution ready
+Scenario 11: Fertilize
+Goal: Have soil that provides the essential nutrients needed for an optimal growth of tomato plants
+Context: Have a proper fertilizer for the tomato plants’ needs
+Resources: fertilizer, tomato plants, soil
+Actors: gardener
+Episodes:
+The gardener prepares the right dose of fertilizer
+The gardener applies the fertilizer on the soil around the tomato plants
+The gardener covers the fertilizer with soil.
+Scenario 12: irrigate by hand
+Goal: irrigate the tomato plant correctly
+Context: have a tomato plant in any state of grow, and a watering can filled with 24 hours rested water (water with 24 hours stagnant)
+Resources: water, watering can, tomato plant, worm leachate (if the plant requires)
+Actor: the gardener
+Episodes:
+The gardener takes the watering can filled with water
+The gardener approach the plant
+The gardener carefully approach the watering can to the plant's base
+The gardener start irrigating without puddling and wet the leaves
+The gardener if it requires irrigate a little again with worm leachate
+Scenario 13: Select marketable tomatoes
+Goal: Decide which tomatoes are already ripe and marketable.
+Context: Some tomatoes ripened.
+Resources: Tomato plant, ripened tomato, tools.
+Actors: Agricultural engineer, farmer.
+Episodes:
+The agricultural engineer inspects the tomato plant.
+The agricultural engineer evaluates the maturity of the tomato plant using the MEIC-MAG 2004 scale.
+The farmer evaluates the commercial maturity of the tomato plant.
+The farmer decides that the fruit is ripe and ready to be harvested.
+Scenario 14: Harvest
+Goal: Collect the tomatoes from the tomato plant.
+Context: The tomatoes ripened. It’s morning time and there’s no dew.
+Resources: Tomato plant, ripened tomato, crate, clean plastic tubs, tools.
+Actors: Agricultural engineer, farmer.
+Episodes:
+The farmer carries crates or tubs to the tomato plant.
+The farmer carefully and manually removes the fruit from the plant.
+The farmer discards those tomatoes presenting plague damage.
+The farmer eliminates the tomato’s calyx.
+The farmer removes the peduncle from the tomato.
+The farmer classifies the tomato according to its state of maturity using the RTCR 739-2004 Technical Regulation specific for Tomato for Consumption in Fresh State.
+The farmer classifies each tomato in one of three different levels of quality, using the caliper.
+The farmer washes the tomato.
+The farmer deposits the fruit in the corresponding container according to its state of maturity, size, and quality.
+The farmer stows the loaded containers.
+The farmer prevents the tomato from getting smashed.
+The farmer ensures the containers are in the shade.
+The farmer ensures the crates allow the adequate aeration of the tomato.
+Scenario 15: Make tomato plant graft
+Goal: Achieve a new plant with more efficient results
+Context: Having tomato seedlings
+Resources: base tomato seedling, portion of tissue from another tomato seedling
+Actors: gardener
+Episodes:
+The gardener cuts a portion of tissue from a tomato seedling
+The gardener makes a cut in the base tomato seedling
+The gardener joins the portion of tissue in the base tomato seedling
+Scenario 16: Disease control
+Goal: Heal the plant when it presents some disease
+Context: The plant presents some kind of symptoms
+Resources: catalogue of symptoms
+Actors: gardener
+Episodes:
+The gardener analyses the plant
+The gardener determines what kind of diseases it presents: abiotic, fungal, bacterial or  viral.
+The gardener applies the treatment according to the type of disease
+Scenario 17: Abiotic disease control
+Goal: Recover the plant from an abiotic disease
+Context: The plant presents symptom of an abiotic disease
+Resources: calcium based fertilizer.
+Actors: gardener
+Episodes:
+The gardener applies calcium based fertilizer
+The gardener controls the temperature of the seedlings.
+The gardener provides adequate nutrition to the plant.
+Scenario 18: Fungal disease control
+Goal: Recover the plant from a fungal disease
+Context: The plant presents symptom of a fungal disease: white, grey or blackish stains and rottenness
+Resources: fungicide
+Actors: gardener
+Episodes:
+The gardener applies fungicide to the plant
+The gardener prunes affected parts of the plant.
+The gardener prevents the fruit to be in contact with the ground
+The gardener controls the irrigation of the tomato plant.
+Scenario 19: Bacterial disease control
+Goal: Recover the plant from a bacterial disease
+Context: The plant presents symptoms of a bacterial disease: pustules on stems and fruits, and also by necrotic spots on fruits.
+Resources: disinfectant
+Actors: gardener
+Episodes:
+The gardener prunes the affected fruits of the plant.
+The gardener disinfects all the materials and work equipment
+Scenario 20: Viral disease control
+Goal: Recover the plant from a viral disease
+Context: The plant presents symptoms of a viral disease: spots of different colour in the leaves
+Resources: pesticides, traps, disinfectant
+Actors: gardener
+Episodes:
+The gardener gets rid of weeds and residues
+The gardener harvests the fruits
+The gardener uses traps and applies pesticide to neutralize bugs
+The gardener disinfects all the tools
+Scenario 21: To weed
+Goal: Prevent the growing of (or eliminate once appeared) undesirable plants of any vegetable species that are not a direct object of the agricultural holding and compete with the tomato plant.
+Context: Between 30 and 75 days have passed since the tomato plant’s transplant and there are weeds on the soil that have a negative impact on its development.
+Resources: Tomato plant, tools, weed, hoe, string trimmer, machete, herbicide.
+Actors: Gardener, agricultural engineer.
+Episodes:
+The agricultural engineer scans the ground in search of crop plagues.
+The agricultural engineer detects weed near the tomato plant.
+The gardener covers the base of the tomato plant with compost, taking special care not to hurt the stem nor the root (as the wounds would serve as an entry point for insects and plagues).
+The gardener removes the detected weed via the hoe, string trimmer, or machete.
+The gardener cleans the tillage equipment to prevent future entry of weeds and other crop plagues.
+The gardener applies herbicide on the ground.
+Scenario 22: Place plastic roof
+Goal: Protect the tomato plants from the rain
+Context: Have tomato plants exposed to fungal and bacterial diseases due to rains
+Resources: transparent plastic, wires
+Actors:  gardener
+Episodes:
+The gardener cuts a portion of transparent plastic with a width between 0.8 cm and 1.2 m.
+The gardener spreads the plastic on a wire
+The gardener gives the roof a few degrees of inclination to prevent the accumulation of water
+Scenario 23: sow tomatoes seeds
+Goal: Put the seeds of tomatoes in seedling
+Context: seed and seedling ready
+Resources: seed, seedling, irrigation mechanism, soil
+Actors: Gardener
+Episodes:
+The agricultural Engineer chooses the seeds of tomatoes
+The gardener puts the seeds in the seedlings
+The gardener sprays with water the seedling
+Scenario 24: Make graft
+Goal: achieve a new plant with more efficient results
+Context: Rootstock and a portion of tissue from another plant
+Resources: tomato plant
+Actors: agricultural engineer, gardener
+Episodes:
+The agricultural engineer selects a portion of tissue from a tomato plant
+The gardener makes the graft
+Scenario 25: Watering
+Goal: Consists on bringing water to the seeds and tomato plants to satisfy their hydric needs
+Context: Seeds on seedling and tomato plants on soil
+Resources: Tomato plants, soil, water, watering mechanism
+Actors:  Agricultural engineer
+Episodes:
+The agricultural engineer selects the watering mechanism.
+The agricultural engineer decides the intensity of the watering according to the analysis of the ground.
+The gardener waters with a watering mechanism and water.
+Scenario 26: Fumigate
+Goal: pour chemicals on tomato plants to eliminate crop pests.
+Context: Discovery of insect pest on tomato plants.
+Resources: Tomato plants, pesticide, tomato.
+Actors: gardener, pest, agricultural engineer.
+Episodes:
+The gardener detects abnormal development/growth in tomato plant.
+The pest destroys leaves, stems and fruits of the tomato plant.
+The pest damages the tomato plant.
+The agricultural engineer analyzes the pest type.
+The agricultural engineer prepares pesticide.
+The agricultural engineer chooses the pesticide.
+The gardener fumigates the tomato plants with the pesticide.
+Scenario 27: Transplant a Tomato Plant
+Goal: Take the tomato plant from the pot and put it into the soil
+Context: prepared soil
+Resources: tomato plant, soil, water, watering mechanism.
+Actors:  Gardener, Agricultural Engeneer
+Episodes:
+The gardener prepares the soil.
+The gardener chooses a tomato plant from the pot.
+The gardener takes the tomato plant from the pot and puts it into the soil.
+The Agricultural Engeneer chooses the watering mechanism.
+Scenario 28: To prune tomato plant
+Goal: Cut or remove the redundant branches in order to let the plant to grow and develop with more strength.
+Context: tomato plant in the flowering stage.
+Resources: tomato plant, soil, water
+Actors:  gardener, disease
+Episodes:
+The gardener identifies the plant with a growing different from the expected.
+The gardener prune the redundant branches of the tomato plant.
+Scenario 29: Harvest
+Goals: Collect the tomato’s fruits when they are ready to consume.
+Context: Tomato reach maturity.
+Resources: tomato plant, tomato, crate
+Actors:  Agricultural Engineer, Gardener
+Episodes:
+The Agricultural Engineer analyzes the tomato plant
+The Agricultural Engineer determines that the tomato plant reached the maturity state
+The Agricultural Engineer decides when the mature  tomato is ready to harvest
+The gardener harvests tomato from tomato plant
+The gardener places the harvested tomatoes in the crate
+Scenario 30: Choose irrigation mechanism
+Goal: Choose an irrigation mechanism based on soil survey and water availability
+Context: different irrigation mechanisms
+Resources: irrigation mechanisms, water
+Actors:  agricultural engineer, gardener
+Episodes:
+The agricultural engineer chooses an irrigation mechanism based on soil survey
+The agricultural engineer installs the irrigation mechanism
+The gardener uses the irrigation mechanism
+Scenario 31: Control of abiotic diseases
+Goal: Disease management for a lack or excess of any factor necessary for the tomato plant’s life
+Context: Disease in tomato plant
+Resources: Fertilizer, nutrients, soil, seedling
+Actors:  Agricultural engineer, abiotic disease, gardener
+Episodes:
+The abiotic disease manifests on the tomato plant.
+The gardener detects the abiotic disease.
+The agricultural engineer applies calcium based fertilizer.
+The gardener controls the temperature of the seedlings.
+The agricultural engineer provides adequate nutrition to the tomato plant.
+Scenario 32: Control of fungal diseases
+Goal: Management of fungal diseases, the symptoms are white, grey or blackish stains and rottenness (e.g: Mildew, ash and anthracnose).
+Context: Disease in tomato plant.
+Resources: Fertilizer, nutrients, soil, seedling.
+Actors: Agricultural engineer, fungal disease.
+Episodes:
+The fungal disease manifests in the tomato plant.
+The agricultural engineer detects the fungal disease.
+The agricultural engineer prevents the fruit of the tomato plant from rubbing against the ground.
+The agricultural engineer uses fungicide to protect the tomato plant
+The agricultural engineer prunes the tomato plant.
+The agricultural engineer removes the diseased tomato plants.
+The agricultural engineer controls the irrigation of the tomato plant.
+Scenario 33: Bacterial Disease Control
+Goal: Management of diseases caused by bacteria.
+Contex: They can be spotted by the appearance of pustules on stems and fruits, and also by necrotic spots on fruits.
+Resources: fertilizer, nutrients, soil, tools
+Actors:  Agricultural Engineer, Gardener, Bacterial disease
+Episodes:
+Bacterial disease manifests itself in the tomato plant
+The Agricultural Engineer detects the bacterial disease
+The Agricultural Engineer removes the diseased fruit
+The Agricultural Engineer uses healthy and disinfected seeds
+The Agricultural Engineer disinfects materials and work equipment
+The Agricultural Engineer removes diseased plants
+Scenario 34: Viral Disease Control
+Goal: Disease Management caused by a virus.
+Context: viral disease in a tomato plant that produces spots of different colour in the leaves, the “tomato spotted wilt virus” produces discoloration in the leaves and in the fruits (which is most evident).
+Resources: fertilizer, nutrients, soil
+Actors: Agricultural Engineer, viral Disease.
+Episodes:
+The viral disease manifest in the tomato plant
+The Agricultural Engineer detects the viral disease.
+The Agricultural Engineer gets rid of weeds, harvest residues and fruits.
+The Agricultural Engineer performs viral control.
+The Agricultural Engineer utilizes resistant variants.
+The Agricultural Engineer plants healthy seedling.
+The Agricultural Engineer disinfects work tools.
+The Agricultural Engineer uses traps to detect and capture bugs
+The Agricultural Engineer uses pesticide to neutralize bugs.
+Scenario 35: Apply agricultural lime to the soil
+goal: add lime and magnesium to the soil in order to cope the acid value of the soil. That is, adjust the pH according to the needs of the crop
+Contexto: Soil
+Recursos: Soil, soil analysis
+Actores:  agricultural engineer, gardener
+Episodios:
+The agricultural engineer analysis the results of the soil analysis
+The gardener prepares the soil
+The agricultural engineer prepares the solution with lime and magnesium
+The gardener applies the solution to the soil
+Scenario 36: Fertilize
+Goal:  make the soil more fertile with the aim of feeding the tomato plant.
+Context: unfertilized soil. The fertilizer can be organic or synthetic compound.
+Resources: soil, fertilizer
+Actors:  Agricultural Engineer, Gardene
+Episodes:
+The Agricultural Engineer prepares the fertilizer
+The gardener fertilize the soil
+Scenario 37: Pests Control
+Goal: Control an insect species by taking actions
+Context: tomato plant affected by the pest
+Resources: soil, compost
+Actors:  agricultural engineer, pesticide, seedbeds
+Episodes:
+The agricultural engineer places the seedbeds in protected environments
+The agricultural engineer applies the pesticide
+The agricultural engineer removes remains of crops
+The agricultural engineer uses insect traps.
+The agricultural engineer makes a biological control.
+The agricultural engineer uses mosquito nets.
+The agricultural engineer makes crop rotation.
+Scenario 38: Sow the seedbed
+Goal: Germinate the seedbed
+Context: The gardener must have garden boxes or grow boxes
+Resources: Tools, soil, compost, seeds
+Actors:  Gardener, gardener’s assistant
+Episodes:
+The gardener takes the garden box and places soil on each orifice.
+The gardener places a seed on each orifice, completing it with compost.
+The gardener adjusts the temperature of the garden box (optimal from 16 °C to 28 °C).
+The gardener waits an average of five to eight days after the sowing.
+Scenario 39: fertilize the seedbed.
+Goal: obtain fertilized seedbed.
+Context: unfertilized seedbed.
+Resources: Compost, garden boxes or grow boxes, tools, compost and seeds.
+Actors:  gardener, gardener assistant.
+Episodes:
+The gardener takes the garden box and places soil on each orifice.
+The gardener places a seed on each orifice, completing in a proportion of 35% to 50%.
+Scenario 40: Water the seedbed
+Goal: Water the seedbed
+Context:  Seeds in the seedbed must be germinating.
+Resources: seedbed, watering can, water
+Actors:  Gardener, Gardener's Assistant
+Episodes:
+The Gardener takes the watering can filled with water
+The gardener pours the water into the seedbed
+Scenario 41: Transplant
+Goal: Transplant the seedlings from the seedbed into their definitely place.
+Context: The gardener must have garden boxes or grow boxes with germinated seedlings.
+Resources: seedlings, garden boxes or grow boxes, tools, soil, water.
+Actors: Gardener and Gardener assistant.
+Episodes:
+The Gardener prepares the ridge or furrows in a straight line, making holes with a slightly bigger size to the volume occupied by the recipients that contain each seedling.
+During the fresh hours of the morning or after 15 o’clock, the Gardener takes garden boxes or grow boxes with the seedlings and transports them to their definitive place.
+If the soil is too dry, the gardener waters it before sowing
+The Gardener puts fertilizer inside the hole.
+The gardener put he seedling in the hole adding 2 o 3 centimeters of soil in the base of the seedling.
+Repeat all the steps for all the seedlings.
+Scenario 42: Water the garden
+goal: water the garden
+Contexto: insufficient rains
+Recursos: crops in the garden, water
+Actores:  gardener, gardener assistant
+Episodios:
+According to the conditions of the crop, the gardener decides what type of water method applied: gravity irrigation, drop irrigation or regular irrigation
+Scenario 43: Place plant Stake
+Goal: Facilite the plant`s general management and prevent the fruit from touching the ground
+Context: Between fifteen and twenty two days after the transplant
+Resources: Stake of reed or bambu, Tools
+Actors: Gardener and Gardener`s assistant
+Episodes:
+The gardener takes the Stake and place it on the center of each ridge at the distance between Stake of 2.5 meters and 3 meters, buried about 40 cm depth and a height of 2.5m above the ground, to bring a better support to the plants
+The gardener places on the header of each ridge a ticker Stake than the internal ones.
+Scenario 44: Prune the plants
+Goal: Control plant size.
+Context: After four weeks from seeding, the plants grow out of alignment
+Resources:  pruning pliers
+Actors: Gardener, Gardener assistant
+Episodes:
+The gardener grabs the pruning pliers and cuts, limiting the number of productive stems and the amount of fruits per plant
+The gardener repeats the previous step for each plant
+Scenario 45: Control pests and insects
+Goal: Remove pests and insects form the plant
+Context: Presence of pests and insects during the lifecycle of the tomato’s cultivation
+Resources: Natural and commercial preparing, tools
+Actors:  Gardener, gardener’s assistant, agricultural engineer
+Episodes:
+The agricultural engineer checks the plants and detects the hosts and the damage on the tomato's cultivation.
+The agricultural engineer informs the gardener what natural and/or artificial preparing must be applied according to the pest or insect detected.
+The gardener proceeds to the management and control of the pests and insects.
+Scenario 46: Harvest
+Goal: Harvest the fruit of tomatoes.
+Context: The plants show a physiological maturity of the fruit
+Resources: Clean plastic tubs, tools
+Actors: Gardener, gardener’s assistant
+Episodes:
+The gardener carefully and manually removes the fruit from the plant.
+The gardener places the removed fruit in the clean plastic tub, avoiding blows.
+Scenario 47: Make the compost
+Goal: Having organic fertilizer
+Context:  The Gardener stores organic waste in a separate place
+Resources: organic waste (fruit peels, vegetable scraps, egg shells, yerba mate, tea, coffee, ground bones, leaves, among others), 200-liter container, without lid or bottom, with holes all over its surface, tools.
+Actors:  Gardener, Gardener's assistant
+Episodes:
+The Gardener takes the container and sets it on bricks, leaving a space (which he will cover later with a piece of wood) where he will extract the compound later on.
+The Gardener throws kitchen wastes, leaves, grasses, weeds, etc. into the container every day.
+Periodically the gardener adds a layer of soil.
+The gardener stirs with the fork to aerate it.
+The gardener covers the container so it does not get wet with the rainwater.
+After 2 months in summer and a little more in winter, the organic compost will be “ripe” (when it’s no longer possible to distinguish the residues)
+Using a fork or sieve, the gardener separates the "ripe" organic compost according to its thickness: (i) thicker (implies that the decomposition process must continue), (ii) medium (to be placed around the plants as a soil protector), (iii) finer material (used in seedbeds).
+Scenario 48: Place plastics bands or ceiling
+Goal: Protect the garden from the rain
+Context: The gardener must protect the plants from the rain and decrease the impact of fungal and bacterial diseases in the garden
+Resources: transparent plastic, wires, tools
+Actors:  gardener, gardener assistant
+Episodes:
+The gardener uses transparent plastic with a width between 0.8 cm and 1.2 m. The plastic is stretched on a wire.
+The gardener provides the plasts some degrees of inclination to prevent the accumulation of water
+Scenario 49: Training pruning / Shaping prunning
+Goal: Shape the plant leaving one or two stalk per plant
+Context: twenty or thirty days after transplant, the plant grow up in height and it can reach 2m until touches the ceiling and the plant can grow vertically up to 1.5m. and the gardener leads it horizontally over the support strings
+Resources: pruning pliers, Tools
+Actors: Gardener and Gardener`s assistant
+Episodes:
+The gardener takes pruning pliers and cuts, leaving one, two or three stalk per plant
+In case of a plant which its fruit is the cherry tomato, between three and four stems are usually left.
+The gardener get rid of auxiliary stalks, improving the main stalk`s growth
+The gardener get rid of old or sick leaves, facilitating plant`s ventilation
+Scenario 50: Cut off inflorescences
+Goal: remove disposable flowers and fruits
+Context: plants with disposable flowers and fruits
+Resources: garden tools
+Actors: Gardener, gardener assistant
+Episodes:
+The gardener removes flowers and fruits to homogenize and increase the size and quality of the fruits
+Scenario 51: Earth up the plant
+Goal: Encourage the development of a greater number of roots.
+Context: Practice carried out after the shape pruning
+Resources: Tools
+Actors:  Gardener, gardener’s assistant
+Episodes:
+The gardener covers the inferior part of the plant with organic fertilizer.
+The gardener must take special care not to damage the stems or roots, since the wounds serve as an entry point for insects or pests.
+Scenario 52: Manage the pollination of the fruits
+Goal: Pollinate the fruits.
+Context: Plants protected by plastic roofs.
+Resources: Tools.
+Actors: Gardener, gardener assistant
+Episodes:
+The gardener vibrates the plants to release the pollen.
+Scenario 53: Install windshield
+Goal: Protect crops from the wind.
+Context:  Windy environment
+Resources: tools
+Actors:  Gardener, Gardener's Assistant
+Episodes:
+The Gardener places a high barrier of tarps or mesh, around the garden, to prevent the fruit from undergoing a pre-harvest abortion.
+Scenario 54: Fungus control
+Goal: Control the main bacterial diseases
+Context: garden with diseases
+Resources: tools, organic solution, commercial solution
+Actors:  gardener, gardener assistant if necessary, agricultural engineer
+Episodes:
+The agricultural engineer identifies the type of disease according to the symptoms of the plant.
+The agricultural engineer communicates the disease to the gardener so he can deal with it
+The gardener applies the organic solution or commercial solution to his garden
+Scenario 55: Virus control
+Goal: Manage major viral diseases
+Context: truck garden infected
+Resources: Tools, natural mixtures and commercial mixtures
+Actors: Gardener, Gardener`s assistant (if its needed), agricultural engineer
+Episodes:
+The agricultural engineer detects the type of disease according to the symptom presented by the plant
+The agricultural engineer communicates the disease to the gardener so he can deal with it
+The gardener proceeds to incorporate the natural or commercial mixtures into his tuck garden
+Scenario 56: Harvest bunches of tomatoes
+Goal:Get marketable tomatoes
+Context:The tomato plant is ready to be harvested. Harvesting bunches of tomatoes starts at the morning. There is not dew
+Actors: Farmer
+Resources: Tomato plant, crate
+Episodies:
+The farmer evaluates the physiological maturity of the tomato plant using the MEIC-MAG 2004 scale
+The farmer evaluates the commercial maturity of the tomato plant
+The farmer decides if the fruit has reached the necessary physiological  and commercial maturity to be harvested
+The farmer carries the crates to the tomato plants
+The farmer removes the tomato from the plant.
+The farmer discards those fruits that are damaged by pests
+The farmer classifies the tomato by its maturity using the RTCR 739-2004 regulation, which is specific for tomato for fresh consumption
+The farmer classifies the tomato by its quality in first, second and third, using the grading machine
+The farmer washes the tomato
+The farmer puts the fruit into the suitable crate according to its maturity, size and quality
+The farmer stows the filled crates
+The farmer checks the tomatoes into the crates are not smashed.
+The farmer checks the crates are in the shade
+The farmer checks the crates allow the correct aeration of the tomato.
+Scenario 57: Harvest of an individual tomato
+Goal: Obtain a marketable tomato
+Context: The tomato plants are in a harvestable state. The harvest of an individual tomato starts during the morning. There is no presence of dew
+Resources: Tomato plant, tub
+Actors:  Farmer
+Episodes:
+The farmer evaluates the physiological maturity of the tomato plant using the MEIC-MAG 2004 scale.
+The farmer evaluates the commercial maturity of the tomato plant.
+The farmer decides if the fruit has reached the physiological and commercial maturity necessary to be harvested.
+The farmer transports the tubs to the tomato plant.
+The farmer separates the tomato from the tomato plant.
+The farmer discards those fruits presenting damage by pests.
+The farmer eliminates the tomato’s calyx.
+The farmer removes the peduncle from the tomato.
+The farmer classifies the tomato according to its state of maturity using the RTCR 739-2004  Technical Regulation specific for Tomato for Consumption in Fresh State.
+The farmer classifies the tomato according to its quality in first, second, third using the caliper.
+The farmer washes the tomato.
+The farmer deposits the fruit on the corresponding tub according to its state of maturity, size, and quality.
+The farmer stows the loaded tub.
+The farmer verifies that the tomato in the tub doesn’t get smashed.
+The farmer verifies that the tubs are in the shade
+The farmer verifies that the tubs allow adequate aeration of the tomato.
+Scenario 58: Sowing the seed
+Goal: Obtain the tomato plants in a young plant state.
+Context: The seed is registered in the National Seed Office. The sowing of the seed takes place in the month of April (winter sowing) or in October/November (summer sowing). The sowing of the seed takes place when the rainy season begins.
+Resources: Seed, Substrate, fertilizer, hotbed, germinator.
+Actors: Farmer
+Episodes:
+The farmer acquires the seed.
+The farmer sanitizes the hotbed.
+The farmer chooses the type of substrate to use.
+The farmer deposits the substrate in the hotbed
+The farmer fertilizes the substrate.
+The farmer places the mulch on the substrate.
+The farmer places the seed in the hotbed.
+The farmer covers the hotbed with black plastic.
+The farmer verifies the proper illumination of the germinator.
+The farmer verifies that the germinator is free of shadows.
+The farmer verifies that the germinator is protected from strong winds.
+The farmer places the hotbed in the germinator
+The farmer verifies that the hotbed is placed in an east-west orientation in the germinator
+The farmer verifies the availability of water for irrigation.
+The farmer verifies that the temperature in the germinator is between 16 and 28 degrees celsius.
+The farmer verifies the humidity of the substrate.
+The farmer waits for the seed to germinate.
+Scenario 59: Irrigation
+Goal: Provide the tomato plant with the amount of water necessary for its optimal growth.
+Context:
+Resources: Water, tensiometer
+Actors:  Farmer
+Episodes:
+The farmer determines the stage of maturity of the tomato plant.
+The farmer measures the potential evapotranspiration.
+The farmer determines the depth where the greatest number of active roots are located.
+The farmer places the tensiometer in the soil at the depth where the greatest number of active roots are located.
+The farmer measures the availability of water in the soil with a tensiometer.
+The farmer obtains information on future rainfall from the nearest meteorological station.
+The farmer estimates the tomato plant's need for water.
+The farmer calculates the water requirement based on the state of the tomato plant, the availability of water in the soil, future rainfall, the tomato plant's need for water, and potential evapotranspiration.
+The farmer determines the frequency of irrigation based on the site where the seedbed is located, the type of substrate, and the climate of the region.
+The farmer determines the irrigation system to use.
+The farmer applies the amount of water required using the chosen irrigation system.
+Scenario 60: Transplant
+Goal: Move the seedling from the hotbed to the seedbed (open field or greenhouse)
+Context: The seedling is in his young plant stage. It has lasted between 25 and 30 days from the sowing. The seedling has not reached the flowering stage.
+Actors: gardener
+Resources: hotbed, seedbed, stake
+Episodes:
+The gardener determines the maturity stage of the seedling
+The gardener decides the moment to transplant
+The gardener moves the seedling from the hotbed to the seedbed
+The gardener prepares the ridge and the furrows
+The gardener determines whether to use a single or double line of sowing.
+The gardener determines the distance according the plant, the season and past experience.
+The gardener makes the holes in the seedbed according to the previous definitions.
+The gardener waters the soil.
+The gardener fertilizes the soil.
+The gardener puts the seedling in the holes.
+The gardener water the base of the seedling.
+The gardener place the stake.
+The gardener ties the seedling to the stake.
+The gardener place the cover.
+The gardener stretches the “mecales” to the cover.
+Scenario 61: Pruning
+Goal: control the tomato plant’s development according to the farmer convenience about limiting the number of the productive stalks and the quantity of fruits per tomato plant to obtain a major precocity in it and bigger fruits, with a major curdled and major quality
+Context: The tomato plant is in the state of rapid growth. There is more than one productive stalk in the tomato plant. The tomato plant has not reached the flowering stage.
+Actors: Farmer
+Resources: pruning shears
+Episodes
+The farmer identifies the most vigorous stalk
+The farmer identifies the axis located under the first inflorescence
+The farmer cuts the first lateral stalks with the pruning shears
+The farmer gets rid of the leaves below the first flower cluster with the pruning shears
+Scenario 62: Fumigation
+Goal: Pests prevention on tomato plant
+Context: The tomato plant has been transplanted
+Actors: Farmer
+Resources: Pesticide
+Episodes:
+The farmer evaluates the tomato plant
+The farmer decides which pests are a risk for the tomato plant
+The farmer evaluates the available pesticides in the market
+The farmer decides which pesticides to use for fumigate
+The farmer applies the pesticide on the tomato plant or on the soil
+Scenario 63: Weeding
+Goal: Prevent the growing of, or eliminate once appeared, undesirable plants of any vegetal species that are not a direct object of the agricultural holding and compete with the tomato plant
+Context: Between 30 and 75 days have passed since the transplant.
+Resources: Hoe, string trimmer, machete, herbicide
+Actors:  Farmer
+Episodes:
+The farmer scans the ground in search of crop pests.
+The farmer eliminates the detected pest via the hoe, string trimmer, or machete.
+The farmer cleans the tillage equipment to prevent future entry of crop pests.
+The farmer applies herbicide on the ground.
+Scenario 64: hilling / earthing up
+Goal: Improve the development of a greater number of roots in the tomato plant.
+Context: The tomato plant has been pruned. The tomato plant is not grafted.
+Resources: Soil, substrate, compost
+Actors:  Farmer
+Episodes:
+The farmer verifies that the tomato plant is not grafted.
+The farmer covers the bottom of the tomato plant with soil, substrate or compost.
+The farmer verifies that the stem and the roots of the tomato plant have not been damaged.
+The farmer protects the wounds found to prevent the entry of pathogens.
+Scenario 65: Sow Tomato Seeds
+Goal: Place the Tomato Seeds in the seedbed
+Contex: seed and seedbeds prepared
+Resources: Seed, Seedbed, substrate, Water
+Actors:  Farmer
+Episodes:
+The farmer chooses the tomato seeds.
+The Farmer places the seeds in the seedbed.
+The Farmer covers the seeds with substrate.
+The Farmer sprays the seedbed with water.
+Scenario 66: irrigate
+Objetivo: Consist of providing water to the seeds and the tomato plants to meet the water needs.
+Contexto: seeds in seedbeds and tomato plant on ground.
+Recursos: tomato plant, ground, water, irrigation mechanism
+Actores: The farmer, weather service
+Episodios:
+The farmer selects the irrigation mechanism.
+The farmer consults the state of weather service.
+The weather service provides information about the weather.
+The farmer decides the intensity of the irrigation.
+The farmer irrigates with the irrigation mechanism and water.
+Scenario 67: Fumigate
+Goal: Using chemicals on tomato plants to control pests
+Context: detection of insect pest on tomato plants
+Resources: tomato plant, pesticide, tomato
+Actors:  farmer, pest, insects
+Episodes:
+The farmer detects that there is an abnormal growth in the tomato plant
+The pest destroys leaves, stems and fruits of the tomato plant
+The pest damages the tomato by making holes
+The farmer analyzes the insect
+The farmer chooses a pesticide
+The farmer prepares the pesticide
+The farmer fumigates with pesticide the tomato plants
+Scenario 68: Supporting with a string
+Goal: Allow to keep the tomato plant upright
+Context: Unsupported tomato plant
+Resources: Tomato plant, tomato, string
+Actors:  Farmer
+Episodes:
+The farmer chooses the supporting technique.
+The farmer prepares the string.
+The farmer sets the sting.
+The stake guides the tomato plant’s growth.
+Scenario 69: Harvest
+Goal: harvest the tomato plant when it is ripe from the tomato plant.
+Context: The tomato ripened.
+Resources: Tomato plant, tomato, crate.
+Actors:  Farmer, laborer.
+Episodes:
+The farmer analyzes the tomato plant.  // subject verb object
+The farmer determines that the tomato ripened..
+The farmer decides when to harvest the ripe tomato.
+The laborer takes the tomato from the tomato plant.
+The laborer places the harvested tomatoes in the crate.
+Scenario 70: Choose Tomato Variety
+Goal: Choose the variety of tomatoes to plant.
+Contex: different varieties of tomato seeds.
+Resources: Seed
+Actors:  Farmer, Weather Service
+Episodes:
+The Farmer chooses a variety of Tomato according to its performance.
+The Meteorological Service reports the weather forecast.
+The Farmer analyzes the weather forecast.
+The Farmer chooses a variety of Tomato.
+Scenario 71: Control of abiotic diseases
+Objetivo: control of diseases regarding lack or excess of some necessary condition for the growing of the plant.
+Contexto: tomato plant with some diseases identified.
+Recursos: fertilizer, nutrient, soil, hotbed.
+Actores:  gardener, abiotic disease.
+Episodios:
+The abiotic disease appears in the tomato plant.
+The gardener detects the abiotic disease.
+The gardener applies calcium based fertilizer.
+The gardener provides nutrients according to the needs of the tomato plant.
+The gardener controls the temperature of the hotbeds.
+The gardener performs drainages to aerate the soil.

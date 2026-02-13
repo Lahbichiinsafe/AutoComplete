@@ -1,7 +1,3 @@
-"""
-Tests pour le module SimpleAutocomplete
-"""
-
 import sys
 from pathlib import Path
 
@@ -54,5 +50,3 @@ if __name__ == "__main__":
                 print(f"    {i}. {word:20} {tag}")
         else:
             print("  Aucune suggestion")
-    
-    print("\n Test terminé !")
