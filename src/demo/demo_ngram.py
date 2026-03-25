@@ -55,6 +55,7 @@ def main():
     global history
 
     session = PromptSession(completer=NgramCompleter())
+    phrases_apprises = 0 
 
     while True:
         try:
@@ -85,6 +86,12 @@ def main():
 
                 history.extend(corrected_words)
                 print(f"Words added to context: {corrected_words}")
+
+                ngram.train_sentence(" ".join(corrected_words))
+                phrases_apprises += 1
+                print(f"[modèle mis à jour — {phrases_apprises} phrase(s) apprise(s)]")
+
+
 
         except KeyboardInterrupt:
             break

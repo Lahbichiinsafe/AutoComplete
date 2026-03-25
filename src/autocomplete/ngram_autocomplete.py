@@ -38,11 +38,20 @@ class NgramAutocomplete:
                 next_word = tokens[i + order - 1]
                 self.ngram_counts[context][next_word] += 1
 
+    def train_sentence(self, sentence):
+        tokens = self.tokenize(sentence)
+        self.word_freq.update(tokens)
+        for order in range(2, self.n + 1):
+            for i in range(len(tokens) - order):
+                context = tuple(tokens[i:i + order - 1])
+                next_word = tokens[i + order - 1]
+                self.ngram_counts[context][next_word] += 1
+
     def predict(self, context_words, prefix="", top_k=5):
         results = []
         seen = set()
 
-        # Niveau 1 : N-gram avec contexte (priorite max)
+        # Niveau 1 : N-gram avec contexte 
         for order in range(self.n - 1, 0, -1):
             if len(context_words) >= order:
                 context = tuple(context_words[-order:])
@@ -56,7 +65,7 @@ class NgramAutocomplete:
                             seen.add(word)
                     break
 
-        # Niveau 2 : Frequence generale (completer si pas assez)
+        # Niveau 2 : Frequence generale 
         total_freq = sum(self.word_freq.values())
         for word, score in self.word_freq.most_common():
             if len(results) >= top_k:
@@ -67,7 +76,14 @@ class NgramAutocomplete:
                 results.append((word, confidence, is_glossary, "general"))
                 seen.add(word)
 
+        # Niveau 3 : NOUVEAU — préfixe inconnu → mots les plus fréquents sans filtre
+        if not results:
+            for word, score in self.word_freq.most_common(top_k):
+                is_glossary = word in self.glossary_words
+                confidence = round(score / total_freq * 100, 1)
+                results.append((word, confidence, is_glossary, "fallback"))
+
         results.sort(key=lambda x: (x[3] != "context", -x[1]))
 
         return [(word, confidence, is_glossary) for word, confidence, is_glossary, _ in results[:top_k]]
-
+    

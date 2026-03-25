@@ -7,3 +7,7 @@ env/
 *.log
 .DS_Store
 *.pdf
+models/
+__pycache__/
+*.pyc
+venv/
