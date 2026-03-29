@@ -1,36 +1,38 @@
 # Intelligent Autocomplete for Scenario Writing
 
 ## Overview
-This project was developed during my L3 research internship at IRIT (SMAC team).
+This project is part of my L3 research internship at IRIT (SMAC team, Toulouse), supervised by Guy Camilleri and conducted in collaboration with Leandro Antonelli at Universidad de La Plata (Argentina).
 
-The objective is to design an intelligent autocomplete system for scenario writing, combining statistical approaches and modern language models LLM.
+The objective is to design and implement an intelligent autocomplete system for scenario writing in requirements engineering, combining statistical approaches and language models LLM.
+
+## Context
+In requirements engineering, scenarios are used to describe interactions between users and systems in natural language. Writing such scenarios can be difficult because of ambiguity, inconsistency and vocabulary variation.
+
+This project focuses on word-completion assistance: given the first letters typed by the user, the system suggests relevant completions, while prioritizing terms coming from a domain glossary.
 
 ## Methods
-- n-gram language models with online learning
-- TF-IDF baseline
+- frequency-based methods
+- n-gram language models
+- glossary-based suggestions
 - Levenshtein distance for spelling correction
 - GPT-2 baseline
-- Hybrid approaches combining statistical and neural methods
+- hybrid approaches
 
 ## Evaluation
-- Train/test split: 80/20
-- Metrics: Top-1 and Top-3 accuracy
-- Comparative evaluation of frequency-based, TF-IDF, n-gram and language-model approaches
-
-## Results
-- Identification of best-performing models depending on context
-- Improved suggestion relevance using hybrid methods
+- 80/20 split
+- Top-1 and Top-3 metrics
+- comparison of frequency-based, TF-IDF, n-gram and language-model approaches
 
 ## Project Structure
 - `src/` : source code
 - `data/` : datasets and glossaries
-- `tests/` : unit tests
+- `tests/` : tests
 - `docs/` : documentation and references
 
 ## Tech Stack
-Python, scikit-learn, Transformers (Hugging Face), NumPy, pandas
+Python, scikit-learn, Transformers, NumPy, pandas
 
-## Future Work
-- Improve hybrid ranking strategies
-- Extend evaluation datasets
-- Build a real-time interactive interface
+## Deliverables
+- implementation of a generic autocomplete tool
+- documentation
+- internship report
