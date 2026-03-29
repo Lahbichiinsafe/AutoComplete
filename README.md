@@ -3,7 +3,7 @@
 ## Overview
 This project was developed during my L3 research internship at IRIT (SMAC team).
 
-The objective is to design an intelligent autocomplete system for scenario writing, combining statistical approaches and modern language models.
+The objective is to design an intelligent autocomplete system for scenario writing, combining statistical approaches and modern language models LLM.
 
 ## Methods
 - n-gram language models with online learning
