@@ -31,8 +31,3 @@ This project focuses on word-completion assistance: given the first letters type
 
 ## Tech Stack
 Python, scikit-learn, Transformers, NumPy, pandas
-
-## Deliverables
-- implementation of a generic autocomplete tool
-- documentation
-- internship report
