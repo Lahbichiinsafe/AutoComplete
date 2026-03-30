@@ -92,11 +92,4 @@ docs/       # notes and references
 
 Python • scikit-learn • Transformers • NumPy • pandas
 
----
-
-## Future Work
-
-* Online learning (incremental updates)
-* Context-aware autocomplete (beyond word-level)
-* Integration of larger language models
 
