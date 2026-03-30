@@ -1,33 +1,102 @@
 # Intelligent Autocomplete for Scenario Writing
 
 ## Overview
-This project is part of my L3 research internship at IRIT (SMAC team, Toulouse), supervised by Guy Camilleri and conducted in collaboration with Leandro Antonelli at Universidad de La Plata (Argentina).
 
-The objective is to design and implement an intelligent autocomplete system for scenario writing in requirements engineering, combining statistical approaches and language models LLM.
+This project is part of my L3 research internship at IRIT (SMAC team, Toulouse), supervised by Guy Camilleri, in collaboration with Leandro Antonelli (Universidad de La Plata, Argentina).
 
-## Context
-In requirements engineering, scenarios are used to describe interactions between users and systems in natural language. Writing such scenarios can be difficult because of ambiguity, inconsistency and vocabulary variation.
+The goal is to design an intelligent autocomplete system for scenario writing in requirements engineering, combining statistical language models and modern NLP approaches.
 
-This project focuses on word-completion assistance: given the first letters typed by the user, the system suggests relevant completions, while prioritizing terms coming from a domain glossary.
+---
+
+## Problem Statement
+
+Scenario writing in requirements engineering involves describing user-system interactions in natural language. This process is often:
+
+* ambiguous
+* inconsistent
+* dependent on domain-specific vocabulary
+
+This project focuses on **word-level autocompletion**, where the system predicts relevant completions from partial inputs, while prioritizing domain-specific glossary terms.
+
+---
 
 ## Methods
-- frequency-based methods
-- n-gram language models
-- glossary-based suggestions
-- Levenshtein distance for spelling correction
-- GPT-2 baseline
-- hybrid approaches
+
+### Statistical Approaches
+
+* Frequency-based models
+* TF-IDF scoring
+* n-gram language models
+
+### NLP Enhancements
+
+* Glossary-based prioritization
+* Levenshtein distance for spelling correction
+
+### Neural Baseline
+
+* GPT-2 used as a baseline for comparison
+
+### Hybrid Models
+
+* Combination of statistical and neural approaches
+
+---
 
 ## Evaluation
-- 80/20 split
-- Top-1 and Top-3 metrics
-- comparison of frequency-based, TF-IDF, n-gram and language-model approaches
+
+A rigorous evaluation protocol is implemented:
+
+* Train/test split: **80 / 20**
+* Metrics:
+
+  * **Top-1 accuracy**
+  * **Top-3 accuracy**
+* Comparative analysis between:
+
+  * frequency-based models
+  * TF-IDF
+  * n-grams
+  * GPT-2 baseline
+
+---
+
+## Results
+
+Best performing model: **n-gram / hybrid approach**
+Evaluation shows improved performance over baseline methods on Top-1 and Top-3 metrics.
+
+---
+
+## Key Contributions
+
+* Implementation of multiple autocomplete strategies
+* Integration of domain glossary into prediction pipeline
+* Comparative evaluation across statistical and neural models
+* Exploration of hybrid approaches
+
+---
 
 ## Project Structure
-- `src/` : source code
-- `data/` : datasets and glossaries
-- `tests/` : tests
-- `docs/` : documentation and references
+
+```
+src/        # core implementation
+data/       # datasets and glossaries
+tests/      # evaluation scripts
+docs/       # notes and references
+```
+
+---
 
 ## Tech Stack
-Python, scikit-learn, Transformers, NumPy, pandas
+
+Python • scikit-learn • Transformers • NumPy • pandas
+
+---
+
+## Future Work
+
+* Online learning (incremental updates)
+* Context-aware autocomplete (beyond word-level)
+* Integration of larger language models
+
