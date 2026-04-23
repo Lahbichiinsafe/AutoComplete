@@ -12,14 +12,13 @@ import os
 
 
 class LMFinetunedAutocomplete:
-    def __init__(self, model_name="sshleifer/tiny-gpt2", corpus_path=None, output_dir="models/finetuned_lm"):
+    def __init__(self, model_name="gpt2", corpus_path=None, output_dir="models/finetuned_lm"):
         self.output_dir = output_dir
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
 
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
 
-        # Si le modèle fine-tuné existe déjà, on le charge directement
         if os.path.exists(output_dir) and os.path.isdir(output_dir):
             print(f"Loading fine-tuned model from {output_dir}...")
             self.model = AutoModelForCausalLM.from_pretrained(output_dir)
@@ -29,8 +28,8 @@ class LMFinetunedAutocomplete:
 
         self.model.eval()
 
-    def finetune(self, corpus_path, epochs=1, batch_size=1):
-        """Fine-tune le modèle sur le corpus tomates."""
+    def finetune(self, corpus_path, epochs=3, batch_size=4):
+        #Fine-tune le modèle sur le corpus tomates
         print(f"Fine-tuning on {corpus_path}...")
 
         dataset = load_dataset("text", data_files={"train": corpus_path})
@@ -40,8 +39,8 @@ class LMFinetunedAutocomplete:
                 examples["text"],
                 truncation=True,
                 padding="max_length",
-                max_length=64,
-            )
+                max_length=64,  
+        )
 
         tokenized_dataset = dataset.map(
             tokenize_function,
@@ -78,7 +77,7 @@ class LMFinetunedAutocomplete:
         self.model.eval()
 
     def predict(self, context_words, prefix="", top_k=5):
-        """Même interface que NgramAutocomplete.predict()."""
+        #Meme interface que NgramAutocomplete.predict()
         sentence = " ".join(context_words).strip()
 
         if not sentence:
