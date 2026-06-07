@@ -19,7 +19,7 @@ def extract_text_from_pdf(pdf_path: str) -> list:
                 if len(re.findall(r'\b[a-zA-Z]{2,}\b', line)) >= 4:
                     sentences.append(line)
 
-    sentences = list(dict.fromkeys(sentences))  # dédoublonnage ordre conservé
+    sentences = list(dict.fromkeys(sentences))  
     print(f"{len(sentences)} lines extracted from PDF")
     return sentences
 

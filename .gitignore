@@ -1,13 +1,40 @@
+# Python
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
+*.pyo
+*.pyd
+.Python
 venv/
 env/
 .env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
 *.log
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Documents proteges
 *.pdf
+
+# Modeles (trop lourds pour GitHub)
 models/
-__pycache__/
-*.pyc
-venv/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# Donnees generees
+data/online_learning_results.json
+data/online_learning_curve.png
+
+# Flask
+static/__pycache__/
+
+# IDE
+.vscode/settings.json
+.idea/

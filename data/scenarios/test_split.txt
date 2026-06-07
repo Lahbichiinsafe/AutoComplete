@@ -1,0 +1,46 @@
+Where detectors are installed in areas to which fire service access is restricted, each area shall be a separate detection zone or have a suitably labelled remote indicator installed outside the entry to the area.
+The connecting leads to the battery shall be clearly labelled to reduce the possibility of reverse connections to the battery.
+A single fault in one detection zone shall not affect the operation of audible alarm devices in other zones.
+Documentation shall include the occupancy of the building where known.
+A manual control shall be provided for door hold-open devices.
+Where the relevant part of ISO 7240 allows more than one sensitivity class, the sensitivity for detectors shall be specified for each detector installed in the building.
+Transmission paths shall provide adequate signal and power integrity.
+Additional equipment, such as remote terminals or graphic displays, may be included in the design of, or connected to, the FDAS.
+The operating principles of flame detectors need to be understood to enable the correct selection and location of a particular device to suit the risk and the level of protection required.
+The power supply equipment shall be energized by a reliable source of supply and shall be connected in accordance with national electrical wiring requirements.
+The battery and cabinet shall be readily accessible for inspection.
+The design may exclude from the area of coverage defined areas rarely or never occupied by people.
+The manual control shall be located adjacent to the doors, mounted at a height not exceeding 1,6 metres from the floor, and visible and accessible with the doors in the open position.
+Where the FDAS or part of the FDAS is not available for use in an emergency, the building occupier shall take appropriate precautions.
+Electrical wiring shall meet national safety requirements.
+The door shall not be lockable.
+Detectors shall not be installed closer than 400 millimetres to any air-supply opening.
+Shutting down the air-handling equipment upon the operation of any detector associated with the air-handling systems within the building will help prevent the spread of smoke throughout the building.
+Following each inspection, test, preventive maintenance action, and repair, a report shall be submitted to the building owner or occupier that details the activities undertaken.
+A single failure of a part of FDCIE installed in a location remote to the main indicators and control shall not inhibit the correct operation of other parts of FDCIE.
+The building automation system shall not initiate any control of the FDAS except for a test of the FDAS.
+Each detector mounted within an air-handling system shall be indicated as a separate detection zone at the FDCIE.
+Special knowledge in the field of fire detection and fire alarm is available.
+Alarm zones may include more than one detection zone.
+The commissioning of the FDAS shall be undertaken by persons having qualifications or experience relevant to the scope of the particular commissioning requirements.
+For areas of high airflow with mechanical ventilation, such as computer rooms and clean rooms, reduced spacing of detectors shall be applied.
+Joints and terminations shall be made in a suitably labelled enclosed terminal box.
+The computer shall not initiate any control of the FDAS except for a test of the FDAS.
+Where vertical shafts penetrate any storey and are not fire-isolated from other areas, a detector shall be located on the ceiling of each storey not more than 1,5 metres horizontally distant from the vertical shaft.
+A FACIE is fire alarm control and indicating equipment.
+Inspect any door covering the FDCIE.
+For ceiling heights up to 40 metres, line-type smoke detectors using a transmitted optical beam shall be mounted not less than 25 millimetres and not more than 600 millimetres below the ceiling.
+Where ceiling fans are installed, detectors shall not be installed closer than 400 millimetres outside the circumference of the blades of the fan.
+The design criteria shall include timely evacuation of people.
+Components used as part of the FDAS shall be designed and manufactured in accordance with a recognized quality system.
+The equipment manufacturer shall make available to the FDAS designer information about the manufacturer's quality assurance system to satisfy the designer that the components selected for the FDAS are suitable for the application.
+The wiring shall be arranged such that a single short circuit or open circuit in a cable within a detection zone shall not affect the normal operation of any other detection zone.
+An FDAS shall be designed in accordance with the requirements of this part of ISO 7240.
+Installation, log, and service records shall be kept by the end user or service organization.
+National regulations may limit the size of detection zones and alarm zones.
+Detector alarm indicators shall be visible from the path of normal entry to the area.
+The location of sampling holes shall be in accordance with the spacing requirements for point-type smoke detectors.
+Detectors shall be installed so that no part of the sensing element is less than 15 millimetres or more than 100 millimetres below the ceiling or roof.
+The maximum distance of travel to any manual call point shall not exceed 45 metres.
+A FDAS is a fire detection and alarm system.
+Areas with no access from inside the building shall be displayed as separate detection zones from those having internal access.
