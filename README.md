@@ -1,7 +1,7 @@
 # Intelligent Autocomplete for Requirements Engineering
 
 > L3 Research Internship — IRIT, Toulouse  
-> Supervised by Guy Camilleri (IRIT) in collaboration with Leandro Antonelli & Gabriela Aranda (Universidad de La Plata, Argentina)
+> Supervised by Guy Camilleri (IRIT) in collaboration with Leandro Antonelli & Gabriela Perez (Universidad de La Plata, Argentina)
 
 ---
 
