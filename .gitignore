@@ -38,3 +38,10 @@ static/__pycache__/
 # IDE
 .vscode/settings.json
 .idea/
+
+# Supprime tous les Zone.Identifier
+find . -name "*:Zone.Identifier" -delete
+# Supprime le zip inutile
+rm "models/gpt2_fire_detection-20260528T182316Z-3-001.zip:Zone.Identifier"
+
+echo "models/" >> .gitignore
